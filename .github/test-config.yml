@@ -1,0 +1,7 @@
+default_context:
+  description: Test Project
+  role_name: test
+  scenario_name: default
+  repository_user: "kilip"
+  license: MIT
+  min_ansible_version: 2.10
