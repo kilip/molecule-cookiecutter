@@ -3,9 +3,9 @@ Ansible Role: {{ cookiecutter.role_name }}
 
 Ansible role {{ cookiecutter.role_name }}
 
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/{{ cookiecutter._repository_url }}/.github/workflows/testing.yml?branch=main&style=flat-square)](https://github.com/{{ cookiecutter._repository_url }}/actions/workflows/testing.yml)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/{{ cookiecutter._repository_url }}?style=flat-square)](https://github.com/{{ cookiecutter._repository_url }}/releases)
-[![GitHub](https://img.shields.io/github/license/{{ cookiecutter._repository_url }}?style=flat-square)](https://github.com/{{ cookiecutter._repository_url }}/blob/main/LICENSE)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/{{ cookiecutter.repository_url }}/.github/workflows/testing.yml?branch=main&style=flat-square)](https://github.com/{{ cookiecutter.repository_url }}/actions/workflows/testing.yml)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/{{ cookiecutter.repository_url }}?style=flat-square)](https://github.com/{{ cookiecutter.repository_url }}/releases)
+[![GitHub](https://img.shields.io/github/license/{{ cookiecutter.repository_url }}?style=flat-square)](https://github.com/{{ cookiecutter.repository_url }}/blob/main/LICENSE)
 
 Requirements
 ------------
