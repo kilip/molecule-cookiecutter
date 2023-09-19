@@ -5,5 +5,7 @@
     "description": "your description",
     "company": "DoyoLabs",
     "license": ["MIT"],
-    "min_ansible_version": "2.10"
+    "min_ansible_version": "2.10",
+    "repository_prefix": "ansible-role-",
+    "_repository": "{{ cookiecutter.author }}/{{ repository_prefix }}{ cookiecutter.role_name }}"
 }
