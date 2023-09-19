@@ -26,7 +26,7 @@ jobs:
 
       - name: Create cookie cutter project
         run:
-          cookiecutter --config-file ./.github/test-config.yml gh:kilip/molecule-cookiecutter
+          cookiecutter --config-file ./.github/test-config.yml gh:kilip/molecule-cookiecutter --no-input
 
       - name: Run molecule testing
         working-directory: test
