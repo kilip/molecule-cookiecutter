@@ -2,6 +2,7 @@
   "description": "your description",
   "role_name": "{{ cookiecutter.description|slugify(separator='_') }}",
   "scenario_name": "default",
+  "author": "Anthonius Munthi",
   "repository_user": "kilip",
   "company": "DoyoLabs",
   "license": ["MIT"],
