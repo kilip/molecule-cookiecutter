@@ -8,5 +8,5 @@
     "min_ansible_version": "2.10",
     "repository_prefix": "ansible-role-",
     "repository_user": "{{ cookiecutter.author }}",
-    "repository_url": "https://github.com/{{ cookiecutter.author }}/{{ repository_prefix }}{ cookiecutter.role_name }}"
+    "repository_url": "https://github.com/{{ cookiecutter.author }}/{{ cookiecutter.repository_prefix }}{ cookiecutter.role_name }}"
 }
