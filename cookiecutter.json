@@ -1,7 +1,7 @@
 {
     "repository_user": "kilip",
     "description": "your description",
-    "role_name": "{{ cookiecutter.description | slugify(separator='_' }}",
+    "role_name": "{% cookiecutter.description | slugify(separator='_' %}",
     "scenario_name": "default",
     "author": "{{ cookiecutter.repository_user}}",
     "company": "DoyoLabs",
