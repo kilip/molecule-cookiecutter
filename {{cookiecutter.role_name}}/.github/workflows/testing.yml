@@ -1,0 +1,15 @@
+---
+name: Testing
+on:  # yamllint disable-line rule:truthy
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+jobs:
+  testing:
+    uses: kilip/gh-workflows/.github/workflows/ansible-testing.yml@main
+    with:
+      dists: ubuntu-22.04, debian-12

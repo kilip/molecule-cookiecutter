@@ -1,0 +1,9 @@
+{
+    "role_name": "role_name",
+    "scenario_name": "default",
+    "author": "Anthonius Munthi",
+    "description": "your description",
+    "company": "DoyoLabs",
+    "license": ["MIT"],
+    "min_ansible_version": 2.10
+}
