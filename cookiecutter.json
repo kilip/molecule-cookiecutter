@@ -1,12 +1,12 @@
 {
-    "repository_user": "kilip",
-    "description": "your description",
-    "role_name": "{{ cookiecutter.description|slugify(separator='_') }}",
-    "scenario_name": "default",
-    "author": "{{ cookiecutter.repository_user}}",
-    "company": "DoyoLabs",
-    "license": ["MIT"],
-    "min_ansible_version": "2.10",
-    "repository_prefix": "ansible-role-",
-    "repository_url": "{{ cookiecutter.repository_user }}/{{ cookiecutter.repository_prefix }}{{ cookiecutter.role_name }}"
+  "description": "your description",
+  "role_name": "{{ cookiecutter.description|slugify(separator='_') }}",
+  "scenario_name": "default",
+  "repository_user": "kilip",
+  "company": "DoyoLabs",
+  "license": ["MIT"],
+  "min_ansible_version": "2.10",
+  "repository_prefix": "ansible-role-",
+  "repository_slug": "{{ cookiecutter.repository_user }}/{{ cookiecutter.repository_prefix }}{{ cookiecutter.role_name }}",
+  "repository_url": "https://github.com/{{ cookiecutter.repository_slug }}"
 }
