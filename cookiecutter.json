@@ -7,5 +7,6 @@
     "license": ["MIT"],
     "min_ansible_version": "2.10",
     "repository_prefix": "ansible-role-",
-    "_repository": "{{ cookiecutter.author }}/{{ repository_prefix }}{ cookiecutter.role_name }}"
+    "repository_user": "{{ cookiecutter.author }}",
+    "_repository_url": "{{ cookiecutter.author }}/{{ repository_prefix }}{ cookiecutter.role_name }}"
 }
