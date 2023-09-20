@@ -1,13 +1,13 @@
 {
-  "description": "your description",
-  "role_name": "{{ cookiecutter.description|slugify(separator='_') }}",
+  "namespace": "kilip",
+  "role_name": "",
   "scenario_name": "default",
+  "description": "Ansible role {{ cookiecutter.role_name }}",
   "author": "Anthonius Munthi",
-  "repository_user": "kilip",
   "company": "DoyoLabs",
   "license": ["MIT"],
   "min_ansible_version": "2.10",
   "repository_prefix": "ansible-role-",
-  "repository_slug": "{{ cookiecutter.repository_user }}/{{ cookiecutter.repository_prefix }}{{ cookiecutter.role_name }}",
+  "repository_slug": "{{ cookiecutter.namespace }}/{{ cookiecutter.repository_prefix }}{{ cookiecutter.role_name }}",
   "repository_url": "https://github.com/{{ cookiecutter.repository_slug }}"
 }
