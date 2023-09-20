@@ -1,6 +1,6 @@
 {
   "namespace": "kilip",
-  "role_name": "",
+  "role_name": "kilip",
   "scenario_name": "default",
   "description": "Ansible role {{ cookiecutter.role_name }}",
   "author": "Anthonius Munthi",
