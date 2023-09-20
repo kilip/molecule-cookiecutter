@@ -9,5 +9,6 @@
   "min_ansible_version": "2.10",
   "repository_prefix": "ansible-role-",
   "repository_slug": "{{ cookiecutter.namespace }}/{{ cookiecutter.repository_prefix }}{{ cookiecutter.role_name }}",
-  "repository_url": "https://github.com/{{ cookiecutter.repository_slug }}"
+  "repository_url": "https://github.com/{{ cookiecutter.repository_slug }}",
+  "galaxy_api_key": ""
 }
