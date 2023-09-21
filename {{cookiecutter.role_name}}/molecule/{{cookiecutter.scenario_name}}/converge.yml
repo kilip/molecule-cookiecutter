@@ -2,4 +2,4 @@
 - name: Converge
   hosts: all
   roles:
-    - role: {{ cookiecutter.role_name }}
+    - role: "{{ cookiecutter.namespace }}.{{ cookiecutter.role_name }}"

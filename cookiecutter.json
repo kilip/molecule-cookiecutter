@@ -4,11 +4,12 @@
   "scenario_name": "default",
   "description": "Ansible role {{ cookiecutter.role_name }}",
   "author": "Anthonius Munthi",
-  "company": "DoyoLabs",
   "license": ["MIT"],
   "min_ansible_version": "2.10",
   "repository_prefix": "ansible-role-",
   "repository_slug": "{{ cookiecutter.namespace }}/{{ cookiecutter.repository_prefix }}{{ cookiecutter.role_name }}",
   "repository_url": "https://github.com/{{ cookiecutter.repository_slug }}",
-  "galaxy_api_key": ""
+  "galaxy_api_key": "",
+  "bot_app_id": "",
+  "bot_app_private_key": ""
 }

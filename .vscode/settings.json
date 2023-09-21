@@ -1,0 +1,6 @@
+{
+    "ansible.python.interpreterPath": "/usr/bin/python3",
+    "files.associations": {
+      "{{cookiecutter.role_name}}/**/*.yml": "jinja"
+    }
+}

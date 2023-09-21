@@ -10,6 +10,6 @@ on:  # yamllint disable-line rule:truthy
 
 jobs:
   testing:
-    uses: kilip/gh-workflows/.github/workflows/ansible-testing.yml@main
+    uses: kilip/gh-common/.github/workflows/ansible-testing.yml@wip
     with:
       dists: ubuntu-22.04
