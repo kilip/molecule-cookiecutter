@@ -9,6 +9,7 @@ eval 'pre-commit install'
 eval 'git commit -am "feat: initial commit"'
 eval 'git remote add origin git@github.com:{{ cookiecutter.repository_slug }}.git'
 eval 'git push -u origin main'
+eval 'git push origin main:next'
 
 {% if cookiecutter.bot_app_id %}
   eval 'gh secret set BOT_APP_ID --body "{{ cookiecutter.bot_app_id }}"'
