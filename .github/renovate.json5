@@ -3,5 +3,5 @@
     "github>kilip/renovate-config",
     "github>kilip/renovate-config:automerge-github-actions",
   ],
-  "repositories": ["{{ cookiecutter.repository_slug }}"],
+  "repositories": ["kilip/cookiecutter-ansible-role"],
 }
