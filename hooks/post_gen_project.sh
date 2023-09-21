@@ -4,6 +4,8 @@ eval 'gh repo create --public {{ cookiecutter.repository_slug }} -d "{{ cookiecu
 
 eval 'git init'
 eval 'git add . -A'
+eval 'pre-commit'
+eval 'pre-commit install'
 eval 'git commit -am "feat: initial commit"'
 eval 'git remote add origin git@github.com:{{ cookiecutter.repository_slug }}.git'
 eval 'git push -u origin main'

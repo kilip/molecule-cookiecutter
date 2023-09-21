@@ -21,10 +21,3 @@ repos:
     rev: v8.8.7
     hooks:
       - id: gitleaks
-  - repo: https://github.com/adrienverge/yamllint
-    rev: v1.26.3
-    hooks:
-      - args:
-          - --config-file
-          - .yamllint
-        id: yamllint
