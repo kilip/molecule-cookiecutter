@@ -1,9 +1,9 @@
 #!/bin/bash
 
+eval 'gh repo create --public --disable-wiki {{ cookiecutter.repository_slug }} -d "{{ cookiecutter.description }}" --disable-wiki'
 eval 'git init'
 eval 'git remote add origin git@github.com:{{ cookiecutter.repository_slug }}.git'
 
-eval 'gh repo create --public {{ cookiecutter.repository_slug }} -d "{{ cookiecutter.description }}" --disable-wiki'
 {% if cookiecutter.bot_app_id %}
   eval 'gh secret set BOT_APP_ID --body "{{ cookiecutter.bot_app_id }}"'
 {% endif %}
@@ -21,4 +21,4 @@ eval 'pre-commit'
 eval 'pre-commit install'
 eval 'git commit -am "feat: initial commit"'
 eval 'git push -u origin main'
-eval 'git push origin main:1.x
+eval 'git push origin main:1.x'
