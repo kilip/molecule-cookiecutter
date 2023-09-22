@@ -11,7 +11,7 @@ on:
         type: boolean
       logLevel:
         description: "Log-Level"
-        default: "debug"
+        default: "error"
         required: false
   schedule:
     - cron: "0 * * * *"
@@ -32,7 +32,7 @@ jobs:
     with:
       configurationFile: ".github/renovate.json5"
       dryRun: "${{ inputs.dryRun || 'false' }}"
-      renovateLogLevel: "${{ inputs.logLevel || 'debug' }}"
+      renovateLogLevel: "${{ inputs.logLevel || 'error' }}"
     secrets:
       app_id: "${{ secrets.BOT_APP_ID }}"
       app_private_key: "${{ secrets.BOT_APP_PRIVATE_KEY }}"
