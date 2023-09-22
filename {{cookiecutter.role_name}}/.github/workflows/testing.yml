@@ -3,7 +3,7 @@ name: Testing
 
 on:  # yamllint disable-line rule:truthy
   push:
-    branches: ["main", "1.x"]
+    branches: ["main", "next"]
 
 jobs:
   testing:
