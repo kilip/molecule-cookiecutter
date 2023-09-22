@@ -19,6 +19,6 @@ eval 'gh repo create --public {{ cookiecutter.repository_slug }} -d "{{ cookiecu
 eval 'git add . -A'
 eval 'pre-commit'
 eval 'pre-commit install'
-eval 'git commit -am "feat: initial commit"'
+eval 'git commit -am "initial commit"'
 eval 'git push -u origin main'
-eval 'git push origin main:next'
+eval 'git push origin main:1.0'
