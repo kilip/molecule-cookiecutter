@@ -11,3 +11,4 @@ jobs:
     uses: kilip/gh-common/.github/workflows/ansible-testing.yml@main
     with:
       dists: ubuntu-22.04
+    secrets: inherit
