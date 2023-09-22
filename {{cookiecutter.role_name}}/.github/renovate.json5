@@ -4,5 +4,5 @@
     "github>kilip/renovate-config:automerge-github-actions",
   ],
   "repositories": ["{{ cookiecutter.repository_slug }}"],
-  "baseBranches": ["next"]
+  "baseBranches": ["main"]
 }
