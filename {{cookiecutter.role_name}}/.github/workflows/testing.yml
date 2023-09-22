@@ -2,13 +2,11 @@
 name: Testing
 
 on:  # yamllint disable-line rule:truthy
-  pull_request:
-    branches: ["main", "next"]
   push:
-    branches: ["main", "next"]
+    branches: ["main", "1.0"]
 
 jobs:
   testing:
-    uses: kilip/gh-common/.github/workflows/ansible-testing.yml@wip
+    uses: kilip/gh-common/.github/workflows/ansible-testing.yml@main
     with:
       dists: ubuntu-22.04

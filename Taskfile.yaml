@@ -2,7 +2,7 @@
 version: "3"
 
 tasks:
-  test:
+  default:
     - gh repo delete kilip/ansible-role-kilip --yes || exit 0
     - rm -rf /tmp/kilip
     - cookiecutter . --no-input -o /tmp
