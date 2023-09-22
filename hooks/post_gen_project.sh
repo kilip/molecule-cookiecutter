@@ -21,3 +21,4 @@ eval 'pre-commit'
 eval 'pre-commit install'
 eval 'git commit -am "feat: initial commit"'
 eval 'git push -u origin main'
+eval 'git push origin main:1.x
